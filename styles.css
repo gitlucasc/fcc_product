@@ -4,11 +4,17 @@
     }
 } */
 
+p, h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 body {
-    margin: 0;
+    margin: 0px;
     min-height: 100vh;
     display: flex; 
     position: relative;
+    background-image: url(https://i.pinimg.com/736x/f1/fe/f3/f1fef3a8656542609ae9e9cacf044471.jpg);
+    color: white;
 }
 
 #nav-bar {
@@ -16,18 +22,47 @@ body {
     flex-direction:row;
     height: auto;
     width: 100%;
-    background-color: red;
+    background-color: rgb(0, 0, 0);
     padding: 1rem;
     position: fixed;
     top: 0;
     left: 0;
 }
 
+.main-container {
+    background-color: rgb(17, 17, 17);
+    width: 40%;
+    margin: auto;
+}
+
+.novelas-container {
+    width: 400px;
+    margin: auto;
+}
+
+.imagenes-alrededor {
+    margin: auto;
+}
+
+.container-container {
+    display: flex;
+    flex-wrap:wrap;
+    margin: auto;
+}
+
+.texto-2-container {
+    margin: 20px
+}
+
 .discover-dune {
     margin-top: 100px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
+    padding: 40px;
+}
 
+h1, ol {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .texto-principal {
@@ -52,14 +87,13 @@ body {
 
 #submit {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
 }
 
+#video {
+    margin: 0
+}
 
 #email {
     text-align: center;
-}
-
-
-#submit {
-    font-size: 20px;
 }
